@@ -44,7 +44,7 @@ function addProject (result) {
 	//slide 41
 	console.log(result['id']);
 
-	$("#project" + result['id'] + " .details").append(
+	$("#project" + result['id'] + " .details").html(
 		projectHTML
 		);
 }
